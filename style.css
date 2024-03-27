@@ -1,0 +1,128 @@
+/* CSS Styling */
+body {
+    font-family: roboto;
+    text-align: center;
+    display: grid;
+  }
+/* Styling use on image tag */
+  img{
+    border-radius: 70%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+/* Styling use on three section of body */
+  header {
+    background-color: #cecccc;
+    padding: 100px 0;
+  }
+  
+  .about-me {
+    background-color: #98a1a644;
+    padding: 100px 0;
+  }
+  
+  .articles {
+    background-color: #cfdce0db;
+    padding: 100px 0;
+  }
+
+  /* Styling use on header-article */
+.dark-section {
+  background-color: #252525;
+  color: #fff;
+  padding: 100px 0;
+}
+h1, h2 {
+  margin-top: fixed;
+}
+h3 {
+  margin-bottom: fixed;
+}
+h3 + p {
+  margin-bottom: fixed;
+}
+
+
+/* Styling use on h1 tag*/  
+  h1 {
+    font-size: 80px;
+    font-weight: 20;
+  }
+  h1 span{
+    font-size: 80px;
+    font-weight: 900;
+    color: #99d930;
+  }
+
+/*  Styling use on h2 tag */ 
+  h2 {
+    font-size: 60px;
+    font-weight: 20;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 10px 20px;
+    box-sizing: content-box;
+    display: inline-block;
+  }
+  h2 span{
+    font-size: 60px;
+    font-weight: 900;
+    color: #99d930;
+  }
+
+/* Styling use on h3 tag */
+  h3 {
+    font-size: 36px;
+  }
+
+/*   Styling use on paragraph tag*/  
+  p{
+    font-size: 16px;
+  }
+  p span{
+    font-size: 16px;
+    color:#99d930;
+  }
+ 
+/* Styling use on anchor tag */
+  a {
+    color: #99D930;
+    font-size: 10px;
+    font-weight: 900;
+  }  
+  a:hover {
+    color: #131313;
+  }
+
+ /*   Styling use to bold all span */
+ span{
+    font-weight: bold;
+ }
+
+/* Creating Buttons */
+
+.button {
+  /* Normal state */
+  color: #252525;
+  background: #99D930;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 1s;
+}
+  /* Hover and focus state */
+.button:hover,
+.button:focus {
+  color: #fff;
+  background: #252525;
+}
+.articles .button{
+  background: #99D930;
+  color: #252525;
+}
+.articles .button:hover,
+.articles .button:focus{
+  background-color: #fff;
+  color: #252525;
+}
